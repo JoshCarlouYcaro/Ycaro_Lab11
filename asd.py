@@ -5,7 +5,7 @@ mid = int(input("Enter midterm grade:"))
 fin = int(input("Enter finals grade:"))
 finals = pre + mid + fin
 new_average = finals // 3
-if(new_average <40 and new_average >100):
+if(new_average <=40 and new_average >=100):
     print("Error")
 else:
     if  new_average >=97:
@@ -28,17 +28,4 @@ else:
        gpa = "3.00"
     else:
        gpa = "5.00"
-print(f"Final Grade: {new_average} Gpa: {gpa} ")
-   
-
-    
-    
-
-
-    
-        
-    
-    
-
-                         
-
+    print(f"Final Grade: {new_average} Gpa: {gpa} ")
